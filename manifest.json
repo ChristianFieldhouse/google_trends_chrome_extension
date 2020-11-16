@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "WikiTrends",
+  "version": "0.1",
+  "permissions":[
+	"activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.wikipedia.org/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": ["add_graph.js"]
+}
+
