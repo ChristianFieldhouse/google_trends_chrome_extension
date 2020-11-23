@@ -19,9 +19,6 @@ var inject_graph = function() {
 loadScript("https://ssl.gstatic.com/trends_nrtr/2402_RC03/embed_loader.js", inject_graph);
 
 
-
-
 //var title = document.getElementById("firstHeading").innerHTML
-
 //var mybox = document.getElementsByClassName("infobox vcard")[0];
 
